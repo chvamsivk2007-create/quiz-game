@@ -1,7 +1,6 @@
 # Quiz Game ❓
 
 A Python quiz game built with object-oriented programming and multiple modules.  
-Part of Angela Yu’s **100 Days of Code** challenge.
 
 ---
 
