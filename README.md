@@ -1,26 +1,25 @@
 # Quiz Game ❓
 
-A Python quiz game built with object-oriented programming and multiple modules.  
-Part of Angela Yu’s **100 Days of Code** challenge.
+A Python quiz game built with multiple modules.  
 
 ---
 
 ## 📖 Description
 This project demonstrates:
-- Object-Oriented Programming (OOP)
-- Creating custom classes (`Question`, `QuizBrain`)
-- Importing and organizing code across multiple files
-- Using external data for questions
+- Splitting code across multiple files
+- Using functions for modular logic
+- Importing and organizing code with modules
+- Handling user input and scoring
 
 ---
 
 ## 📂 Project Structure
 quiz-game/
 │
-├── question_model.py   # Defines the Question class
 ├── data.py             # Contains question data
-├── quiz_brain.py       # Handles quiz logic
-└── main.py             # Runs the game
+├── quiz_brain.py       # Handles quiz logic (asking questions, checking answers, tracking score)
+├── main.py             # Runs the game
+└── question_model.py   # Defines the question format (if used)
 
 Code
 
@@ -29,7 +28,7 @@ Code
 ## 🎮 Features
 - Loads questions from a data file
 - Tracks score as you play
-- Uses OOP for clean structure
+- Organized into multiple files for clarity
 - Console-based interaction
 
 ---
